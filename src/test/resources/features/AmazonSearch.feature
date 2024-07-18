@@ -12,4 +12,4 @@ Feature: Amazon Search Validation
       | Nokia    | Electronics |
       | Selenium | Books       |
     Then Validate the Amazon search result
-    And Close the Amazon Chrome browser
+    #And Close the Amazon Chrome browser

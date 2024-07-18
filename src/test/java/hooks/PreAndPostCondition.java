@@ -19,7 +19,7 @@ public class PreAndPostCondition {
 	
 	@After
 	public void quitBrowser() {
-		driver.close();
+		driver.quit();
 	}
 	
 	@AfterStep

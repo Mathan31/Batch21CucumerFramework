@@ -43,7 +43,7 @@ public class EbayHomePage {
 
 	public void clickOnSearchButton() {
 		WebElement oBtn = driver.findElement(searchButton);
-		oBtn.submit();
+		oBtn.click();
 	}
 	
 	public String getSearchResult() {
